@@ -1,0 +1,5 @@
+<script>
+$("li").css("color","white");
+$("#body").css("background","url(http://kcr.sdsu.edu/wordpress/wp-content/uploads/Animals.jpeg)");
+$("#li-body-background").hide();
+</script>

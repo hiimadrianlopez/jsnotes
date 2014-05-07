@@ -1,0 +1,52 @@
+<table>
+<tbody>
+<tr>
+    <td>
+        <input id="input_item" type="text">
+    </td>
+    <td>
+        <button id="add_item">Agregar</button>
+    </td>
+</tr>
+</tbody>
+</table>
+
+
+<table id="items_table">
+</table>
+
+
+<input id="json_items" type="hidden">
+
+<script>
+
+dialogName = "List_Generator";
+file = "file-List_Generator";
+$(document).ready(function(){
+
+    // initially loading json vals to list
+    console.log("---html");
+    console.log($("#note-content-file-List_Generator").html());
+    console.log("!---html");
+    $("#json_items").val($("#note-content-file-List_Generator").html());
+
+
+    var items = $("#json_items").val();
+    console.log(items);
+/*
+
+    items = JSON.parse(items);
+
+    $(items).each(function(i){
+        console.log(this);
+        $('<tr>').html(
+            $('td').text(this)
+        ).appendTo('#items_table');
+    });
+
+    */
+    $("#li-file-List_Generator").hide();
+    return false;
+
+});
+</script>

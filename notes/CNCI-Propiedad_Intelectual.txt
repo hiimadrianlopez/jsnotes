@@ -1,0 +1,9 @@
+S1 C1 A1 - Conoce <br>
+S1 C5 A1 - Relaciona<br>
+S2 C6 A1 - Explora<br>
+S2 C9 A1 - Relaciona<br>
+<br>
+3 11 1 Relaciona<br>
+3 14 2 Aplica<br>
+4 16 1 Aplica<br>
+4 18 2 Aplica<br>
